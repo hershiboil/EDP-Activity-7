@@ -28,17 +28,6 @@ namespace DentalClinic
                            // this.Close(); // closes the login form completely
         }
 
-        private void dashboardButton_Click(object sender, EventArgs e)
-        {
-            dashboard dashboard = new dashboard();
-
-            // Show the dashboard form
-            dashboard.Show();
-
-            // Hide or close the login form
-            this.Hide();   // hides the login form but keeps it in memory
-                           // this.Close(); // closes the login form completely
-        }
 
         private void paymentsButton_Click(object sender, EventArgs e)
         {
